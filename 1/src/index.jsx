@@ -5,4 +5,7 @@ import Card from './Card.jsx';
 
 // BEGIN (write your solution here)
 
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<Card />);
+
 // END
